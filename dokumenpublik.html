@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dokumen Publik | Diskominfo Lamongan</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+  <header>
+    <div class="logo-area">
+      <img src="logo.png" alt="Logo Diskominfo">
+      <h1>DISKOMINFO</h1>
+    </div>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="profil.html">Profil</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="layanan.html">Layanan</a>
+      <a href="dokumenpublik.html">Dokumen Publik</a>
+      <a href="ppid.html">PPID</a>
+      <a href="fag.html">FAQ</a>
+    </nav>
+  </header>
+ <div class="container">
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+      <a href="#">Home</a> / <span>Dokumen Publik</span>
+    </div>
+
+    <!-- Judul -->
+    <h2 class="page-title">DOKUMEN PUBLIK</h2>
+
+    <!-- Filter -->
+    <div class="filters">
+      <select id="kategori">
+        <option>Semua kategori</option>
+        <option>Peraturan</option>
+        <option>Laporan</option>
+      </select>
+
+      <select id="rowsPerPageSelect">
+        <option value="5">5</option>
+        <option value="10" selected>10</option>
+        <option value="25">25</option>
+        <option value="50">50</option>
+      </select>
+    </div>
+
+    <!-- Tabel Dokumen -->
+    <table class="dokumen-table" id="dokumenTable">
+      <thead>
+        <tr>
+          <th>NO</th>
+          <th>Dokumen</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Contoh data dummy -->
+        <tr><td>1</td><td>Rencana Strategis 2025</td><td><i class="fas fa-eye"></i></td></tr>
+        <tr><td>2</td><td>Laporan Tahunan 2024</td><td><i class="fas fa-eye"></i></td></tr>
+        <tr><td>3</td><td>Peraturan Bupati No. 5 Tahun 2023</td><td><i class="fas fa-eye"></i></td></tr>
+        <tr><td>4</td><td>Dokumen Evaluasi Kinerja 2024</td><td><i class="fas fa-eye"></i></td></tr>
+        <tr><td>5</td><td>Laporan Anggaran Semester I</td><td><i class="fas fa-eye"></i></td></tr>
+        <tr><td>6</td><td>Laporan Anggaran Semester II</td><td><i class="fas fa-eye"></i></td></tr>
+        <tr><td>7</td><td>Laporan Bulanan Januari</td><td><i class="fas fa-eye"></i></td></tr>
+        <tr><td>8</td><td>Laporan Bulanan Februari</td><td><i class="fas fa-eye"></i></td></tr>
+        <tr><td>9</td><td>Laporan Bulanan Maret</td><td><i class="fas fa-eye"></i></td></tr>
+        <tr><td>10</td><td>Laporan Bulanan April</td><td><i class="fas fa-eye"></i></td></tr>
+        <tr><td>11</td><td>Laporan Bulanan Mei</td><td><i class="fas fa-eye"></i></td></tr>
+        <tr><td>12</td><td>Laporan Bulanan Juni</td><td><i class="fas fa-eye"></i></td></tr>
+        <tr><td>13</td><td>Laporan Bulanan Juli</td><td><i class="fas fa-eye"></i></td></tr>
+        <tr><td>14</td><td>Laporan Bulanan Agustus</td><td><i class="fas fa-eye"></i></td></tr>
+        <tr><td>15</td><td>Laporan Bulanan September</td><td><i class="fas fa-eye"></i></td></tr>
+      </tbody>
+    </table>
+
+    <!-- Pagination -->
+    <div class="table-footer">
+  <p id="info"></p>
+  <div class="pagination" id="pagination"></div>
+</div>
+
+  </div>
+
+  <!-- LINK TERKAIT -->
+  <section class="link-terkait">
+    <h3>Link Terkait</h3>
+    <div class="images">
+      <a href="https://lapor.go.id/"><img src="lapor1.png" alt="lapor"></a>
+      <a href="https://laporpakyes.lamongankab.go.id/"><img src="lpryes.png" alt="lapor pak yes"></a>
+      <a href="https://laporwbs.lamongankab.go.id/"><img src="wbs.png" alt="lapor wbs"></a>
+      <a href="https://lamongankab.go.id/artikel/47"><img src="nomor.png" alt="nomor penting"></a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+  <div class="footer-top">
+    <div class="footer-logo">
+      <img src="logo.png" alt="Logo Diskominfo">
+      <h3>diskominfo</h3>
+      <div class="footer-social">
+        <a href="index.html"><img src="web.png" alt="Web"></a>
+        <a href="https://lapor.go.id/"><img src="lapor.png" alt="Website"></a>
+        <a href="https://www.instagram.com/diskominfo.lamongan"><img src="instag.png" alt="Instagram"></a>
+        <a href="https://www.tiktok.com/@lamongankab"><img src="tiktok.png" alt="TikTok"></a>
+        <a href="https://www.youtube.com/@lamongankabtv"><img src="youtube.png" alt="YouTube"></a>
+      </div>
+    </div>
+
+    <div class="footer-column">
+      <h4>INFORMASI</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed ligula nec ipsum volutpat tristique.</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>AGENDA</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed ligula nec ipsum volutpat tristique.</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>PENGUMUMAN</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed ligula nec ipsum volutpat tristique.</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <img src="lamongan.png" alt="Lamongan Megilan">
+    <p>&copy; 2025 Diskominfo Kabupaten Lamongan</p>
+  </div>
+</footer>
+
+  <!-- Script Pagination -->
+  <script>
+    const table = document.getElementById("dokumenTable");
+    const tbody = table.querySelector("tbody");
+    const rows = tbody.querySelectorAll("tr");
+    const pagination = document.getElementById("pagination");
+    const info = document.getElementById("info");
+    const rowsPerPageSelect = document.getElementById("rowsPerPageSelect");
+
+    let currentPage = 1;
+    let rowsPerPage = parseInt(rowsPerPageSelect.value);
+    let totalPages = Math.ceil(rows.length / rowsPerPage);
+
+    function displayRows(page) {
+      const start = (page - 1) * rowsPerPage;
+      const end = start + rowsPerPage;
+
+      rows.forEach((row, index) => {
+        row.style.display = (index >= start && index < end) ? "" : "none";
+      });
+
+      info.textContent = `Menampilkan ${start + 1} sampai ${Math.min(end, rows.length)} dari ${rows.length}`;
+    }
+
+    function setupPagination() {
+      pagination.innerHTML = "";
+
+      const prev = document.createElement("button");
+      prev.textContent = "Sebelumnya";
+      prev.disabled = currentPage === 1;
+      prev.onclick = () => {
+        if (currentPage > 1) {
+          currentPage--;
+          displayRows(currentPage);
+          setupPagination();
+        }
+      };
+      pagination.appendChild(prev);
+
+      for (let i = 1; i <= totalPages; i++) {
+        const btn = document.createElement("button");
+        btn.innerText = i;
+        btn.onclick = () => {
+          currentPage = i;
+          displayRows(currentPage);
+          setupPagination();
+        };
+        if (i === currentPage) btn.classList.add("active");
+        pagination.appendChild(btn);
+      }
+
+      const next = document.createElement("button");
+      next.textContent = "Selanjutnya";
+      next.disabled = currentPage === totalPages;
+      next.onclick = () => {
+        if (currentPage < totalPages) {
+          currentPage++;
+          displayRows(currentPage);
+          setupPagination();
+        }
+      };
+      pagination.appendChild(next);
+    }
+
+    function refreshPagination() {
+      rowsPerPage = parseInt(rowsPerPageSelect.value);
+      totalPages = Math.ceil(rows.length / rowsPerPage);
+      currentPage = 1;
+      displayRows(currentPage);
+      setupPagination();
+    }
+
+    rowsPerPageSelect.addEventListener("change", refreshPagination);
+
+    displayRows(currentPage);
+    setupPagination();
+  </script>
+</body>
+</html>
